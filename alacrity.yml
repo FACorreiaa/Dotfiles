@@ -1,1 +1,2 @@
-~/.config/alacritty/alacritty.yml
+import:
+  - ~/.alacritty/theme/dracula.yml
