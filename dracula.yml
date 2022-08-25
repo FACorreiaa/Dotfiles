@@ -59,3 +59,7 @@ colors:
     magenta: '#ff92df'
     cyan: '#a4ffff'
     white: '#ffffff'
+font:
+   normal:
+     family: agave NF
+   size: 14.0
