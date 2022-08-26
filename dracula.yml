@@ -7,6 +7,12 @@
 # Template
 # https://github.com/alacritty/alacritty/blob/master/alacritty.yml
 
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux"
 colors:
   primary:
     background: '#282a36'
@@ -61,5 +67,6 @@ colors:
     white: '#ffffff'
 font:
    normal:
-     family: agave NF
+     family: CaskaydiaCove Nerd Font
+     style: Book
    size: 14.0
