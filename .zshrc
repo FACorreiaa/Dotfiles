@@ -106,7 +106,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-neofetch
+#neofetch
 
 export ZSH=$HOME/.oh-my-zsh
 export GOROOT=/usr/local/go
@@ -114,11 +114,11 @@ export GOPATH=$HOME/go
 export CARGO=$HOME/.cargo/bin
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin:$CARGO
 ZSH_THEME="powerlevel10k/powerlevel10k"
-POWERLEVEL9K_MODE="nerdfont-complete"
+POWERLEVEL10K_MODE="CaskaydiaCove Nerd Font"
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting golang)
-
+plugins=(git zsh-autosuggestions alias-finder aliases autoenv dnf dotenv web-search yarn npm nvm vscode golang)
+#zsh-syntax-highlighting
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -141,5 +141,15 @@ alias luaconf='nvim ~/.config/nvim/lua/bashbunni.lua'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 alias sourcetmux='tmux source ~/.tmux.conf'
+
+#git alias
+alias gaa='git add .'
+#source /home/fernandocorreia/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+ZSH_ALIAS_FINDER_AUTOMATIC=true
+
+eval $(thefuck --alias FUCK)
+source ~/.zsh/vscode/vscode.plugin.zsh
 source /home/fernandocorreia/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.autoenv/activate.sh
