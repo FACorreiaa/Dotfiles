@@ -1,106 +1,164 @@
-# Dracula theme for Alacritty
-# https://draculatheme.com/alacritty
-#
-# Color palette
-# https://spec.draculatheme.com
-#
-# Template
-# https://github.com/alacritty/alacritty/blob/master/alacritty.yml
-draw_bold_text_with_bright_colors: true
+# Configuration for Alacritty, the GPU enhanced terminal emulator
+# Any items in the `env` entry below will be added as
+# environment variables. Some entries may override variables
+# set by alacritty it self.
+env:
+  # TERM env customization.
+  #
+  # If this property is not set, alacritty will set it to xterm-256color.
+  #
+  # Note that some xterm terminfo databases don't declare support for italics.
+  # You can verify this by checking for the presence of `smso` and `sitm` in
+  # `infocmp xterm-256color`.
+  TERM: xterm-256color
+  # TERM:"" nvim
+window:
+  # Window dimensions in character columns and lines
+  # (changes require restart)
+  dimensions:
+    columns: 0
+    lines: 0
 
-schemes:
-  dracula: &dracula
-   primary:
-    background: '#282a36'
-    foreground: '#f8f8f2'
-    bright_foreground: '#ffffff'
-    cursor:
-     text: CellBackground
-     cursor: CellForeground
-    vi_mode_cursor:
-     text: CellBackground
-     cursor: CellForeground
-    search:
-     matches:
-      foreground: '#44475a'
-      background: '#50fa7b'
-     focused_match:
-      foreground: '#44475a'
-      background: '#ffb86c'
-     footer_bar:
-      background: '#282a36'
-      foreground: '#f8f8f2'
-     hints:
-      start:
-       foreground: '#282a36'
-       background: '#f1fa8c'
-      end:
-       foreground: '#f1fa8c'
-       background: '#282a36'
-      line_indicator:
-       foreground: None
-       background: None
-      selection:
-       text: CellForeground
-       background: '#44475a'
+  # Adds this many blank pixels of padding around the window
+  # Units are physical pixels; this is not DPI aware.
+  # (change requires restart)
+  padding:
+    x: 2
+    y: 2
+
+  dynamic_padding: false
+  # Window decorations
+  #
+  # Available values:
+  # - `full`: Window with title bar and title bar buttons
+  # - `none`: Window without title bar, rounded corners, or drop shadow
+  # - `transparent`: Window with title bar with transparent background and title
+  #   bar buttons
+  # - `buttonless`: Window with title bar with transparent background and no
+  #   title bar buttons
+  # Window decorations
+  #
+  # Values for `decorations`:
+  #     - full: Borders and title bar
+  #     - none: Neither borders nor title bar
+  #     - buttonless: Title bar, transparent background and title bar buttons
+  #     - transparent: Title bar, transparent background, but no title bar buttons
+  decorations: full
+  
+  # Startup Mode (changes require restart)
+  #
+  # Values for `startup_mode`:
+  #   - Windowed
+  #   - Maximized
+  #   - Fullscreen
+  #
+  # Values for `startup_mode` (macOS only):
+  #   - SimpleFullscreen
+  startup_mode: Windowed
+
+# scrolling.multiplier: 3
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  # Specifying '0' will disable scrolling.
+  history: 10000
+
+  # Number of lines the viewport will move for every line scrolled when
+  # scrollback is enabled (history > 0).
+  multiplier: 3
+
+  # Scroll to the bottom when new text is written to the terminal.
+  auto_scroll: false
+
+
+
+# Display tabs using this many cells (changes require restart)
+tabspaces: 4
+draw_bold_text_with_bright_colors: true
+items:
+  - colors:
+      name: 3024 (dark)
+      author: Chris Kempson
+      primary:
+        background: "#090300"
+        foreground: "#a5a2a2"
+      cursor:
+        text: "#090300"
+        cursor: "#a5a2a2"
       normal:
-       black: '#21222c'
-       red: '#ff5555'
-       green: '#50fa7b'
-       yellow: '#f1fa8c'
-       blue: '#bd93f9'
-       magenta: '#ff79c6'
-       cyan: '#8be9fd'
-       white: '#f8f8f2'
+        black: "#090300"
+        red: "#db2d20"
+        green: "#01a252"
+        yellow: "#fded02"
+        blue: "#01a0e4"
+        magenta: "#a16a94"
+        cyan: "#b5e4f4"
+        white: "#a5a2a2"
       bright:
-       black: '#6272a4'
-       red: '#ff6e6e'
-       green: '#69ff94'
-       yellow: '#ffffa5'
-       blue: '#d6acff'
-       magenta: '#ff92df'
-       cyan: '#a4ffff'
-       white: '#ffffff'
-  materia: &materia
+        black: "#5c5855"
+        red: "#db2d20"
+        green: "#01a252"
+        yellow: "#fded02"
+        blue: "#01a0e4"
+        magenta: "#a16a94"
+        cyan: "#b5e4f4"
+        white: "#f7f7f7"
+  - theme: 3024.dark
+colors:
   # Default colors
   primary:
-    background: '0x181818'
-    foreground: '0xeff0f1'
+    background: '#282a36'
+    foreground: '#f8f8f2'
 
   # Normal colors
   normal:
-    black:   '0x181818'
-    red:     '0xe14245'
-    green:   '0x55ba79'
-    yellow:  '0xf67400'
-    blue:    '0x4285f4'
-    magenta: '0x9b59b6'
-    cyan:    '0x1abc9c'
-    white:   '0xeff0f1'
+    black: '#000000'
+    red: '#ff5555'
+    green: '#50fa7b'
+    yellow: '#f1fa8c'
+    blue: '#caa9fa'
+    magenta: '#ff79c6'
+    cyan: '#8be9fd'
+    white: '#bfbfbf'
 
   # Bright colors
   bright:
-    black:   '0x7f8c8d'
-    red:     '0xc0392b'
-    green:   '0x00c853'
-    yellow:  '0xfdbc4b'
-    blue:    '0x6aa6f4'
-    magenta: '0x8e44ad'
-    cyan:    '0x16a085'
-    white:   '0xfcfcfc'
-
-  # Dim colors (Optional)
-  dim:
-    black:   '0x181818'
-    red:     '0x783228'
-    green:   '0x149459'
-    yellow:  '0xb65619'
-    blue:    '0x345284'
-    magenta: '0x614a73'
-    cyan:    '0x186c60'
-    white:   '0x63686d'
+    black: '#575b70'
+    red: '#ff6e67'
+    green: '#5af78e'
+    yellow: '#f4f99d'
+    blue: '#caa9fa'
+    magenta: '#ff92d0'
+    cyan: '#9aedfe'
+    white: '#e6e6e6'
+theme: Dracula
 font:
-   normal:
-     family: CaskaydiaCove Nerd Font
-     style: Book
-   size: 14.0
+ normal:
+  family: CaskaydiaCove Nerd Font
+  style: Book
+ size: 13.0
+
+visual_bell:
+  animation: EaseOutExpo
+  duration: 0
+
+# Background opacity
+window.opacity: 1.0
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>"
+  
+  # When set to `true`, selected text will be copied to the primary clipboard.
+  save_to_clipboard: false
+
+dynamic_title: true
+
+cursor:
+  # Style of the cursor
+  #
+  # Values for 'cursor_style':
+  # - Block
+  # - Underline
+  # - Beam
+  style: Block
+
+
