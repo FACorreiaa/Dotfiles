@@ -1,0 +1,15 @@
+pane	0	0	1	:*	0	fernandocorreia@MacBook-Pro-de-Fernando:~	:/Users/fernandocorreia	0	zsh	:
+pane	0	0	1	:*	1	fernandocorreia@MacBook-Pro-de-Fernando:~/beedeez-server	:/Users/fernandocorreia/beedeez-server	1	zsh	:
+pane	1	0	0	:	0	fernandocorreia@MacBook-Pro-de-Fernando:~/beedeez-server	:/Users/fernandocorreia/beedeez-server	0	zsh	:
+pane	1	0	0	:	1	btop	:/Users/fernandocorreia/beedeez-server	1	btop	:btop
+pane	1	1	0	:-	0	yarn dev-main:web	:/Users/fernandocorreia/beedeez-main	0	node	:node /usr/local/bin/yarn dev-main:web
+pane	1	1	0	:-	1	yarn dev-main:bo	:/Users/fernandocorreia/beedeez-main	0	node	:node /usr/local/bin/yarn dev-main:bo
+pane	1	1	0	:-	2	fernandocorreia@MacBook-Pro-de-Fernando:~/beedeez-main/packages/beedeez-app-prepro	:/Users/fernandocorreia/beedeez-main/packages/beedeez-app-prepro	1	zsh	:
+pane	1	2	1	:*	0	fernandocorreia@MacBook-Pro-de-Fernando:~	:/Users/fernandocorreia	1	zsh	:
+pane	2	0	1	:*	0	fernandocorreia@MacBook-Pro-de-Fernando:~/Downloads	:/Users/fernandocorreia/Downloads	1	zsh	:
+window	0	0	:zsh	1	:*	e18c,238x65,0,0[238x33,0,0,1,238x31,0,34,2]	:
+window	1	0	:btop	0	:	c94b,238x65,0,0{118x65,0,0,3,119x65,119,0,4}	:
+window	1	1	:zsh	0	:-	4b93,238x65,0,0{118x65,0,0,5,119x65,119,0[119x33,119,0,6,119x31,119,34,7]}	:
+window	1	2	:zsh	1	:*	c085,123x45,0,0,8	:
+window	2	0	:zsh	1	:*	c786,106x37,0,0,9	:
+state	2	
