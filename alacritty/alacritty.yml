@@ -1,0 +1,435 @@
+env:
+  TERM: xterm-256color
+window:
+  dimensions:
+    columns: 0
+    lines: 0
+  padding:
+    x: 8
+    'y': 8
+  dynamic_padding: false
+  decorations: full
+  startup_mode: Windowed
+scrolling:
+  history: 10000
+  multiplier: 3
+  auto_scroll: false
+tabspaces: 4
+draw_bold_text_with_bright_colors: true
+items:
+  - colors:
+      name: 3024 (dark)
+      author: Chris Kempson
+      primary:
+        background: '#090300'
+        foreground: '#a5a2a2'
+      cursor:
+        text: '#090300'
+        cursor: '#a5a2a2'
+      normal:
+        black: '#090300'
+        red: '#db2d20'
+        green: '#01a252'
+        yellow: '#fded02'
+        blue: '#01a0e4'
+        magenta: '#a16a94'
+        cyan: '#b5e4f4'
+        white: '#a5a2a2'
+      bright:
+        black: '#5c5855'
+        red: '#db2d20'
+        green: '#01a252'
+        yellow: '#fded02'
+        blue: '#01a0e4'
+        magenta: '#a16a94'
+        cyan: '#b5e4f4'
+        white: '#f7f7f7'
+  - theme: 3024.dark
+  - colors:
+      name: 3024 (dark)
+      author: Chris Kempson
+      primary:
+        background: '#090300'
+        foreground: '#a5a2a2'
+      cursor:
+        text: '#090300'
+        cursor: '#a5a2a2'
+      normal:
+        black: '#090300'
+        red: '#db2d20'
+        green: '#01a252'
+        yellow: '#fded02'
+        blue: '#01a0e4'
+        magenta: '#a16a94'
+        cyan: '#b5e4f4'
+        white: '#a5a2a2'
+      bright:
+        black: '#5c5855'
+        red: '#db2d20'
+        green: '#01a252'
+        yellow: '#fded02'
+        blue: '#01a0e4'
+        magenta: '#a16a94'
+        cyan: '#b5e4f4'
+        white: '#f7f7f7'
+  - theme: 3024.dark
+  - colors:
+      name: 3024 (dark)
+      author: Chris Kempson
+      primary:
+        background: '#090300'
+        foreground: '#a5a2a2'
+      cursor:
+        text: '#090300'
+        cursor: '#a5a2a2'
+      normal:
+        black: '#090300'
+        red: '#db2d20'
+        green: '#01a252'
+        yellow: '#fded02'
+        blue: '#01a0e4'
+        magenta: '#a16a94'
+        cyan: '#b5e4f4'
+        white: '#a5a2a2'
+      bright:
+        black: '#5c5855'
+        red: '#db2d20'
+        green: '#01a252'
+        yellow: '#fded02'
+        blue: '#01a0e4'
+        magenta: '#a16a94'
+        cyan: '#b5e4f4'
+        white: '#f7f7f7'
+  - theme: 3024.dark
+  - colors:
+      name: 3024 (dark)
+      author: Chris Kempson
+      primary:
+        background: '#090300'
+        foreground: '#a5a2a2'
+      cursor:
+        text: '#090300'
+        cursor: '#a5a2a2'
+      normal:
+        black: '#090300'
+        red: '#db2d20'
+        green: '#01a252'
+        yellow: '#fded02'
+        blue: '#01a0e4'
+        magenta: '#a16a94'
+        cyan: '#b5e4f4'
+        white: '#a5a2a2'
+      bright:
+        black: '#5c5855'
+        red: '#db2d20'
+        green: '#01a252'
+        yellow: '#fded02'
+        blue: '#01a0e4'
+        magenta: '#a16a94'
+        cyan: '#b5e4f4'
+        white: '#f7f7f7'
+  - theme: 3024.dark
+  - colors:
+      name: 3024 (dark)
+      author: Chris Kempson
+      primary:
+        background: '#090300'
+        foreground: '#a5a2a2'
+      cursor:
+        text: '#090300'
+        cursor: '#a5a2a2'
+      normal:
+        black: '#090300'
+        red: '#db2d20'
+        green: '#01a252'
+        yellow: '#fded02'
+        blue: '#01a0e4'
+        magenta: '#a16a94'
+        cyan: '#b5e4f4'
+        white: '#a5a2a2'
+      bright:
+        black: '#5c5855'
+        red: '#db2d20'
+        green: '#01a252'
+        yellow: '#fded02'
+        blue: '#01a0e4'
+        magenta: '#a16a94'
+        cyan: '#b5e4f4'
+        white: '#f7f7f7'
+  - theme: 3024.dark
+  - colors:
+      name: 3024 (dark)
+      author: Chris Kempson
+      primary:
+        background: '#090300'
+        foreground: '#a5a2a2'
+      cursor:
+        text: '#090300'
+        cursor: '#a5a2a2'
+      normal:
+        black: '#090300'
+        red: '#db2d20'
+        green: '#01a252'
+        yellow: '#fded02'
+        blue: '#01a0e4'
+        magenta: '#a16a94'
+        cyan: '#b5e4f4'
+        white: '#a5a2a2'
+      bright:
+        black: '#5c5855'
+        red: '#db2d20'
+        green: '#01a252'
+        yellow: '#fded02'
+        blue: '#01a0e4'
+        magenta: '#a16a94'
+        cyan: '#b5e4f4'
+        white: '#f7f7f7'
+  - theme: 3024.dark
+  - colors:
+      name: 3024 (dark)
+      author: Chris Kempson
+      primary:
+        background: '#090300'
+        foreground: '#a5a2a2'
+      cursor:
+        text: '#090300'
+        cursor: '#a5a2a2'
+      normal:
+        black: '#090300'
+        red: '#db2d20'
+        green: '#01a252'
+        yellow: '#fded02'
+        blue: '#01a0e4'
+        magenta: '#a16a94'
+        cyan: '#b5e4f4'
+        white: '#a5a2a2'
+      bright:
+        black: '#5c5855'
+        red: '#db2d20'
+        green: '#01a252'
+        yellow: '#fded02'
+        blue: '#01a0e4'
+        magenta: '#a16a94'
+        cyan: '#b5e4f4'
+        white: '#f7f7f7'
+  - theme: 3024.dark
+colors:
+  primary:
+    background: '#EFF1F5'
+    foreground: '#4C4F69'
+    dim_foreground: '#4C4F69'
+    bright_foreground: '#4C4F69'
+  normal:
+    black: '#5C5F77'
+    red: '#D20F39'
+    green: '#40A02B'
+    yellow: '#DF8E1D'
+    blue: '#1E66F5'
+    magenta: '#EA76CB'
+    cyan: '#179299'
+    white: '#ACB0BE'
+  bright:
+    black: '#6C6F85'
+    red: '#D20F39'
+    green: '#40A02B'
+    yellow: '#DF8E1D'
+    blue: '#1E66F5'
+    magenta: '#EA76CB'
+    cyan: '#179299'
+    white: '#BCC0CC'
+  cursor:
+    text: '#EFF1F5'
+    cursor: '#DC8A78'
+  vi_mode_cursor:
+    text: '#EFF1F5'
+    cursor: '#7287FD'
+  search:
+    matches:
+      foreground: '#EFF1F5'
+      background: '#6C6F85'
+    focused_match:
+      foreground: '#EFF1F5'
+      background: '#40A02B'
+    footer_bar:
+      foreground: '#EFF1F5'
+      background: '#6C6F85'
+  hints:
+    start:
+      foreground: '#EFF1F5'
+      background: '#DF8E1D'
+    end:
+      foreground: '#EFF1F5'
+      background: '#6C6F85'
+  selection:
+    text: '#EFF1F5'
+    background: '#DC8A78'
+  dim:
+    black: '#5C5F77'
+    red: '#D20F39'
+    green: '#40A02B'
+    yellow: '#DF8E1D'
+    blue: '#1E66F5'
+    magenta: '#EA76CB'
+    cyan: '#179299'
+    white: '#ACB0BE'
+  indexed_colors:
+    - index: 16
+      color: '#FAB387'
+    - index: 17
+      color: '#F5E0DC'
+    - index: 16
+      color: '#EF9F76'
+    - index: 17
+      color: '#F2D5CF'
+    - index: 16
+      color: '#FAB387'
+    - index: 17
+      color: '#F5E0DC'
+    - index: 16
+      color: '#EF9F76'
+    - index: 17
+      color: '#F2D5CF'
+    - index: 16
+      color: '#F5A97F'
+    - index: 17
+      color: '#F4DBD6'
+    - index: 16
+      color: '#EF9F76'
+    - index: 17
+      color: '#F2D5CF'
+    - index: 16
+      color: '#EF9F76'
+    - index: 17
+      color: '#F2D5CF'
+    - index: 16
+      color: '#F5A97F'
+    - index: 17
+      color: '#F4DBD6'
+    - index: 16
+      color: '#EF9F76'
+    - index: 17
+      color: '#F2D5CF'
+    - index: 16
+      color: '#EF9F76'
+    - index: 17
+      color: '#F2D5CF'
+    - index: 16
+      color: '#EF9F76'
+    - index: 17
+      color: '#F2D5CF'
+    - index: 16
+      color: '#FE640B'
+    - index: 17
+      color: '#DC8A78'
+    - index: 16
+      color: '#EF9F76'
+    - index: 17
+      color: '#F2D5CF'
+    - index: 16
+      color: '#EF9F76'
+    - index: 17
+      color: '#F2D5CF'
+    - index: 16
+      color: '#EF9F76'
+    - index: 17
+      color: '#F2D5CF'
+    - index: 16
+      color: '#F5A97F'
+    - index: 17
+      color: '#F4DBD6'
+    - index: 16
+      color: '#F5A97F'
+    - index: 17
+      color: '#F4DBD6'
+    - index: 16
+      color: '#F5A97F'
+    - index: 17
+      color: '#F4DBD6'
+    - index: 16
+      color: '#EF9F76'
+    - index: 17
+      color: '#F2D5CF'
+    - index: 16
+      color: '#F5A97F'
+    - index: 17
+      color: '#F4DBD6'
+    - index: 16
+      color: '#F5A97F'
+    - index: 17
+      color: '#F4DBD6'
+    - index: 16
+      color: '#FAB387'
+    - index: 17
+      color: '#F5E0DC'
+    - index: 16
+      color: '#F5A97F'
+    - index: 17
+      color: '#F4DBD6'
+    - index: 16
+      color: '#F5A97F'
+    - index: 17
+      color: '#F4DBD6'
+    - index: 16
+      color: '#F5A97F'
+    - index: 17
+      color: '#F4DBD6'
+    - index: 16
+      color: '#F5A97F'
+    - index: 17
+      color: '#F4DBD6'
+    - index: 16
+      color: '#FE640B'
+    - index: 17
+      color: '#DC8A78'
+    - index: 16
+      color: '#F5A97F'
+    - index: 17
+      color: '#F4DBD6'
+    - index: 16
+      color: '#FE640B'
+    - index: 17
+      color: '#DC8A78'
+    - index: 16
+      color: '#FE640B'
+    - index: 17
+      color: '#DC8A78'
+    - index: 16
+      color: '#FE640B'
+    - index: 17
+      color: '#DC8A78'
+    - index: 16
+      color: '#FE640B'
+    - index: 17
+      color: '#DC8A78'
+    - index: 16
+      color: '#F5A97F'
+    - index: 17
+      color: '#F4DBD6'
+    - index: 16
+      color: '#EF9F76'
+    - index: 17
+      color: '#F2D5CF'
+    - index: 16
+      color: '#EF9F76'
+    - index: 17
+      color: '#F2D5CF'
+    - index: 16
+      color: '#FE640B'
+    - index: 17
+      color: '#DC8A78'
+theme: Dracula
+font:
+  normal:
+    family: CaskaydiaCove Nerd Font
+    style: Regular
+  size: 16
+visual_bell:
+  animation: EaseOutExpo
+  duration: 0
+window.opacity: 0.3
+selection:
+  semantic_escape_chars: ',│`|:"'' ()[]{}<>'
+  save_to_clipboard: false
+dynamic_title: true
+cursor:
+  style: Block
