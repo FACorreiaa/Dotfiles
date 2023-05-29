@@ -1,0 +1,44 @@
+setw -g mouse on
+set -g default-terminal "xterm-256color"
+set -g terminal-overrides ",xterm-256color:RGB"
+#set -g default-shell /bin/zsh 
+# plugins
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-continuum'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'tmux-plugins/tmux-net-speed'
+#\set -g @plugin 'dracula/tmux'
+#set -g @plugin 'catppuccin/tmux'
+set -s default-terminal 'xterm-256color'
+set -g @continuum-restore 'off'
+#set -g @catppuccin_flavour 'latte' # or frappe, macchiato, mocha
+#set -g @catppuccin_window_tabs_enabled on # or off to disable window_tabs
+#set -g @catppuccin_left_separator "█"
+#set -g @catppuccin_right_separator "█"
+#set -g @catppuccin_date_time "%Y-%m-%d %H:%M"
+#set -g @catppuccin_user "on"
+#set -g @catppuccin_datetime_icon "A"
+#set -g @catppuccin_user_icon "B"
+#set -g @catppuccin_directory_icon "C"
+#set -g @catppuccin_window_icon "D"
+#set -g @catppuccin_session_icon "E"
+#set -g @catppuccin_host_icon "F"
+
+# dracula customizations
+set -g @dracula-plugins "cpu-usage ram-usage network battery time"
+set -g @dracula-show-powerline true
+set -g @dracula-show-fahrenheit false
+set -g @dracula-border-contrast true
+set -g @dracula-military-time true
+set -g @continuum-boot-options 'fullscreen'
+set -g @continuum-boot-options 'alacritty,fullscreen'
+set -g @dracula-cpu-usage-colors "pink dark_gray"
+set -g @dracula-ram-usage-colors "light_purple white"
+set -g @dracula-network-colors "yellow gray"
+set -g @dracula-battery-colors "red white"
+set -g @dracula-time-colors "gray red"
+# it can accept `session`, `smiley`, `window`, or any character.
+set -g @dracula-show-left-icon session
+
+run '~/.tmux/plugins/tpm/tpm'
